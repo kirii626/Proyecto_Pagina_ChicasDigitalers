@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chicas Programadoras</title>
+
+        <!-- con esta etiqueta llamamos al archivo css -->
+        <link rel="stylesheet" href="estilos.css">
+
+        <!-- tipografia de google -->
+        <link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1 class="titulo">Hola Mundo</h1>
+
+        <div id="pagina">
+
+            <p id="intro">Esta es mi primer página web. Aquí voy a nombrar cuales son mis series preferidas</p>
+
+            <div id="series">
+                <h2 class="titulo">Series Cómicas</h2>
+                <!-- esta es una lista ordenada -->
+                <ol>
+                    <li>Friends <a href="http://www.warnerbros.com/tv/friends-complete-series-collection">Sitio Web</a></li>
+                    <li>Fuller House <a href="http://www.warnerbros.com/tv/fuller-house">Sitio Web</a></li>
+                    <li>The Big Band Theory <a href="http://the-big-bang-theory.com/">Sitio Web</a></li>
+                </ol>
+
+                <!-- los espacios que dejemos entre líneas no se verán por pantalla -->
+                <h2 class="titulo">Series Suspenso</h2>
+                <ol>
+                    <li>Games of Thrones <a href="http://www.hbo.com/game-of-thrones"><button type="button">Sitio Web</button></a></li>
+                    <li>Stranger Things <a href="https://www.netflix.com/ar/title/80057281"><button type="button">Sitio Web</button></a></li>
+                    <li>The Walking Dead <a href="http://www.amc.com/shows/the-walking-dead"><button type="button">Sitio Web</button></a></li>
+                </ol>
+            </div>
+
+            <div id="personajes">
+                <h2 class="titulo">Personajes que más me gustan</h2>
+
+                <!-- esta es una lista desordenada -->
+                <ul>
+                    <li>Eleven</li>
+                    <li>Arya Stark</li>
+                    <li>Jon Snow</li>
+                    <li>Carl Grimes</li>
+                </ul>
+
+                <h3 class="titulo">Personajes de Games of Thrones</h3>
+                <table>
+                    <tr>
+                        <!-- encabezado de la tabla -->
+                        <th>Nombre</th>
+                        <th>Casa</th>
+                    </tr>
+                    <tr>
+                        <td>Arya</td>
+                        <td>Stark</td>
+                    </tr>
+                    <tr>
+                        <td>Sansa</td>
+                        <td>Stark</td>
+                    </tr>
+                    <tr>
+                        <td>Daenerys</td>
+                        <td>Targaryen</td>
+                    </tr>
+                    <tr>
+                        <td>Cersei</td>
+                        <td>Lannister</td>
+                    </tr>
+                    <tr>
+                        <td>Margaery</td>
+                        <td>Tyrell</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="formulario">
+                <h1 class="titulo">Cuales son tus series favoritas?</h1>
+
+                <!-- el formulario no va a funcionar porque necesitamos programar la parte del Backend -->
+                <form action="">
+                    Nombre:<br>
+                    <input type="text" name="primernombre" value=""><br>
+
+                    Apellido:<br>
+                    <input type="text" name="apellido" value=""><br><br>
+
+                    <h4>Que serie preferís de todas estas?</h4>
+
+                    <select name="series">
+                        <option value="seleccionar">Seleccionar</option>
+                        <option value="got">Games of Thrones</option>
+                        <option value="twd">The Walking Dead</option>
+                        <option value="st">Stranger Things</option>
+                    </select>
+
+                    <h4 class="titulo">Que personaje preferís de GOT?</h4>
+
+                    <input type="radio" name="personajes" value="male"> Jon Snow<br>
+                    <input type="radio" name="personajes" value="female"> Khal Drogo<br>
+                    <input type="radio" name="personajes" value="female"> Daenerys Targaryen<br>
+                    <input type="radio" name="personajes" value="female"> Joffrey Baratheon<br>
+                    <input type="radio" name="personajes" value="female"> Brienne de Tarth<br>
+                    <input type="radio" name="personajes" value="other"> Tyrion Lannister
+
+                    <h4 class="titulo">Cuales fueron tus temporadas favoritas de GOT?</h4>
+
+                    <input type="checkbox" name="t1" value="t1"> Temporada 1<br>
+                    <input type="checkbox" name="t2" value="t2"> Temporada 2<br>
+                    <input type="checkbox" name="t3" value="t3"> Temporada 3<br>
+                    <input type="checkbox" name="t4" value="t4"> Temporada 4<br>
+                    <input type="checkbox" name="t5" value="t5"> Temporada 5<br>
+                    <input type="checkbox" name="t6" value="t6"> Temporada 6<br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="piedepagina">
+                <p>GOT es una serie de televisión que está basada en el libro de George R.R. Martin. En español se la conoce como "Juego de Tronos" y es una de las series más exitosas de los últimos tiempos. Sus personajes son muy variados y con rasgos únicos. Los personajes femeninos que resaltan son: Daenerys Targaryen, Cersei Lannister, Arya Stark y Sansa Stark</p>
+
+                <img id="gotgirls" src="http://pre10.deviantart.net/8ed7/th/pre/f/2016/092/d/8/ladies_of_game_of_thrones_png_by_nickelbackloverxoxox-d9xhnz0.png" title="Games of Thrones Girls" alt="Personajes mujeres de Game of thrones">
+            </div>
+
+        </div>
+
+    </body>
+</html>

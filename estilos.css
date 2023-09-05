@@ -1,0 +1,48 @@
+/*definimos que tipografía nos gustaría para toda la página*/
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #4FC18C;
+}
+
+/*si queremos que los títulos tengan otra tipografía...*/
+h1, h2, h3, h4 {
+    font-family: 'Griffy', cursive;
+}
+
+#pagina {
+    margin: 40px;
+}
+
+/*podemos elegir el tamaño de letra para los párrafos*/
+p {
+    font-size: 14px;
+}
+
+#gotgirls {
+    background-color: #672F91;
+}
+
+#intro {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #FC6544;
+}
+
+h1, #intro {
+    text-align: center;
+}
+
+button:hover {
+    color: blue;
+}
+
+#series {
+    border: 5px dotted #942796;
+    padding: 20px;
+}
+
+#formulario {
+    border: 3px solid #0E0E52;
+    padding: 30px;
+    margin-top: 30px;
+}
